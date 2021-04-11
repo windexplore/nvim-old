@@ -1,18 +1,26 @@
 
+let config_dir = "/home/fubo/.config/nvim"
+
+
 
 " ==================
 " Basic
-source ./basic.vim
+let basic_config = join(["source ", config_dir, "/basic.vim"], "")
+execute basic_config
+
+
 
 " ==================
 " File Type
 " Note: Nvim will autoload configuration named filetype.vim
-source ./file.vim
+let file_config = join(["source ", config_dir,  "/file.vim"], "")
+execute file_config
 
 
 " ==================
 " Plugin
-source ./plug.vim
+let plugin_config = join(["source ", config_dir, "/plug.vim"], "")
+execute plugin_config
 
 
 
@@ -23,7 +31,8 @@ source ./plug.vim
 
 " ==================
 " Keyboard Mapping
-source ./mapping.vim
+let mapping_config = join(["source ", config_dir, "/mapping.vim"], "")
+execute mapping_config
 
 
 

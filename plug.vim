@@ -1,14 +1,14 @@
-
-
+let config_dir = "/home/fubo/.config/nvim"
+let plug_dir = join([config_dir, "/plug"], "")
 
 " call plug#begin('~/.config/nvim/plug/')
-call plug#begin('./plug')
+call plug#begin(plug_dir)
 
 
 
 Plug 'junegunn/vim-easy-align'
-Plug 'vim-airline/vim-airline'
-"Plug 'itchyny/lightline.vim'
+"Plug 'vim-airline/vim-airline'
+Plug 'itchyny/lightline.vim'
 
 
 
