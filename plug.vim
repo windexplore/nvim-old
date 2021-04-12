@@ -1,4 +1,4 @@
-let config_dir = "/home/fubo/.config/nvim"
+let config_dir = "/home/tom/.config/nvim"
 let plug_dir = join([config_dir, "/plug"], "")
 
 " call plug#begin('~/.config/nvim/plug/')

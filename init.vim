@@ -1,5 +1,5 @@
 
-let config_dir = "/home/fubo/.config/nvim"
+let config_dir = "/home/tom/.config/nvim"
 
 
 
